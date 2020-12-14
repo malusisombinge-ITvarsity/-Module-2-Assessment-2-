@@ -1,0 +1,295 @@
+#header{
+    background-image: url('images/background.jpg');
+    background-repeat: repeat-x;
+    height: 180px;
+    
+}
+
+/*============ HEADER ============*/
+#header2{
+    background-color: rgba(225,225,225, .8);
+    height: 188px;
+}
+
+#header2 img.logo{
+    float: left
+}
+
+#header2 a{
+    text-decoration: none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #000000;
+    display: block;
+    float: left;
+    width: 12%;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+/*============ MAIN HOME ============*/
+#main-home h1{
+    text-align: center;
+    font-weight: 700;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+}
+#main-img{
+    width: 90%;
+    height: 340px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    overflow: auto;
+    border-radius: 15px;
+}  
+#main-img img{
+    width: 30%;
+    height: 300px;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+
+/*============ MAIN HOME ============*/
+#map img.level{
+    width: 70%;
+    padding: 20px; 
+}
+
+/*============ CONTENT ============*/
+a.content{
+    text-decoration: none;
+    background: rgba(255, 255, 255, .8);
+    width: 90%;
+    height: 100px;
+    display: block;
+    margin: 0;
+    margin-top: 12px;
+    padding: 1px;
+}
+
+a img{
+    width: 100px;
+    height: 90px;
+    float: left;
+}
+
+a img.right{
+    float: right;
+}
+
+a h3{
+    margin-left: 90px;
+    color: #000000;
+        
+}
+
+a p{
+    text-decoration: none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #000000;
+}
+
+/*============ MOVIES ============*/
+#movies img{
+    width: 150px;
+    height: 160px;
+    padding: 8px;
+    border-radius: 10px;
+}
+#movies img:hover{
+    width: 153px;
+    height: 163px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+
+/*============ ABOUT ============*/
+#about img{
+    width: 600px;
+    height: 450px;
+    padding: 10px;
+}
+
+/*============ SPORTSCENE ============*/
+
+#sportcene{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+}
+.sc-content{
+    margin: 10px;
+}
+.sc{
+    width: 300px;
+    height: 400px;
+   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.5); */
+    border-radius: 10px;
+    margin: 5px;
+}
+.sc:hover{
+    width: 305px;
+    height: 505px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+}
+.sc img{
+    width: 90%;
+    height: 70%;
+    border-radius: 10px;
+ 
+}
+.price{
+    color: red;
+}
+.sc p{
+    font-family: sans-serif;
+}
+#single-img{
+    width: 100%;
+    padding-left: 0;
+}
+#single-img img{
+    display: block;
+    width: 250px !important;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+/*============ ATMS ============*/
+
+#atm-img img{
+    width: 30%;
+    height: 200px;
+}
+
+#atm-img p{
+    font-family: sans-serif;
+}
+
+/*============ ATMS ============*/
+
+
+
+
+
+#movie-content{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: auto;
+    height: 750px;
+    padding: 10px;
+    width: 100%;
+}
+
+#movies-title-text{
+    margin-left: 10px;
+}
+/*============== movie ========*/
+#movie-col1{
+    border-right: 1px solid;
+    width: 90%;
+    height: 100%;
+}
+#movie-col1 h1{
+    text-align: center;
+}
+
+#mov-info-col{
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    height: 100%;
+}
+
+.gallery {
+  border: 1px solid #ccc;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+}
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+}
+.gallery a{
+    text-decoration: none;
+}
+.desc {
+  padding: 15px;
+  text-align: left;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+.desc span{
+    font-size: 14px;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 100%;
+}
+
+#movie-col2-info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100%;
+    width: 90%;
+}
+
+/*============== form=====*/
+
+input{
+    width: 100%;
+    height: 25px ;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+textarea{
+    width: 100%;
+    height: 65%;
+    margin: 12px 0;
+    border: 1px solid #929292;
+        
+}
+
+.button{
+    display: block;
+    background-color: forestgreen;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+}
+
+#up img{
+    padding: 10px;
+}
+
+/*============== INFO BOX FULL=====*/
+
+#info-box-full{
+    background: rgba(255, 255, 255, .8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+#info-box-full img{
+    width: 100%;
+}
+
+#info-box-full h3{
+    text-align: center;
+}

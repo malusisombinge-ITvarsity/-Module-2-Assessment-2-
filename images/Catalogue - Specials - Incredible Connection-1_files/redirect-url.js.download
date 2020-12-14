@@ -1,0 +1,1 @@
+define(["jquery","jquery-ui-modules/widget"],(function(e){"use strict";return e.widget("mage.redirectUrl",{options:{event:"click",url:void 0},_bind:function(){var e={};e[this.options.event]="_onEvent",this._on(e)},_create:function(){this._bind()},_onEvent:function(){if(this.options.url)location.href=this.options.url;else location.href=this.element.val()}}),e.mage.redirectUrl}));

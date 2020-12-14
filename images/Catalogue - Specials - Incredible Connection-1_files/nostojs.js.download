@@ -1,0 +1,1 @@
+define([],(function(){if("function"==typeof nostojs)return nostojs;else if("function"==typeof window.nostojs)return window.nostojs}));

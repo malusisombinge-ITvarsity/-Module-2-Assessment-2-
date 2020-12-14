@@ -1,0 +1,1 @@
+define(["vimeo"],(function(i){"use strict";window.Vimeo=window.Vimeo||{Player:i}}));

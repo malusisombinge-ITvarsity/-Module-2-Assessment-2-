@@ -1,0 +1,1 @@
+!function(){"use strict";var t;if("function"!=typeof window.CustomEvent)(t=function(t,e){var n;return e=e||{bubbles:!1,cancelable:!1,detail:void 0},(n=document.createEvent("CustomEvent")).initCustomEvent(t,e.bubbles,e.cancelable,e.detail),n}).prototype=window.Event.prototype,window.CustomEvent=t}();
